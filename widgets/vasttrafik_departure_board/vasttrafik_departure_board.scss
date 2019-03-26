@@ -1,0 +1,90 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color: white;
+$text-color: black;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$label-color:       rgba(0, 0, 0, 0.7);
+$updated-at-color: rgba(212, 212, 212, 0.76);
+
+.widget-vasttrafik-departure-board {
+
+  background-color: $background-color;
+  vertical-align: top !important;
+  padding: 20px;
+  color: $text-color;
+
+  .name {
+    color: white;
+    border-radius: 5px;
+    width: 50px;
+    margin: 5px 0px;
+		display: table-cell;
+  }
+	
+	.table {
+		display: table;
+		width: 100%;
+	}
+	
+  .direction {
+    text-align: left;
+    vertical-align: top;
+    overflow: hidden;
+    width: 20vw;
+		padding-left: 0.5vw;
+		display: table-cell;
+  }
+
+  .header {
+    color: $label-color;
+    font-size: x-large;
+    margin-bottom: 10;
+  }
+
+  .list {
+    list-style: none;
+	}
+
+  .row {
+		padding: 6px 12px;
+  }
+
+  .right {
+    vertical-align: top;
+    overflow: hidden;
+    padding-left: 0.5vw;
+  }
+
+  .eta {
+    text-align: right;
+    vertical-align: top;
+    overflow: hidden;
+    width: 5vw;
+		padding-left: 0.5vw;
+		display: table-cell;
+  }
+
+  .time {
+    text-align: right;
+    vertical-align: top;
+    overflow: hidden;
+		padding-left: 0.5vw;
+		display: table-cell;
+  }
+
+  .text {
+    font-size: small;
+  }
+ 
+  .updated-at-vasttrafik {
+    color: $updated-at-color;
+    margin-top: 8px;
+    font-size: 15px;
+    left: 0;
+    right: 0;
+  }
+
+}
+

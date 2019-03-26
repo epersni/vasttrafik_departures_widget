@@ -1,0 +1,11 @@
+<h1 class="header" data-bind="header"></h1>
+
+<div class="table">
+	<div data-foreach-departure="departures" class="row">
+        <div class="name" data-bind="departure.name"></div>
+        <div class="direction" data-bind="departure.direction"></div>
+        <div class="eta" data-bind="departure.eta"></div>
+        <div class="time" data-bind="departure.time"></div>
+	</div>
+</div>
+<p class="updated-at-vasttrafik" data-bind="updatedAtMessage"></p>
