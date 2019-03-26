@@ -3,6 +3,7 @@ A widget for Smashing Dashboard showing Västtrafik departures
 
 ![screenshot](screenshot.png?raw=true "screenshot")
 
+## How to install
 Put this in your dashboard .erb file:
 ```
 <li data-row="1" data-col="1" data-sizex="2" data-sizey="1">
@@ -12,4 +13,6 @@ Put this in your dashboard .erb file:
 </li>
 ```
 
-Edit your AUTH_KEY and STOP_ID in jobs/vasttrafik-get-bus-stop.rb
+Make sure you are registered as a Västtrafik developer at https://developer.vasttrafik.se
+
+Edit your *AUTH_KEY* and *STOP_ID* in jobs/vasttrafik-get-bus-stop.rb
